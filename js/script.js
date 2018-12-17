@@ -99,7 +99,8 @@
     // Count down setup
 
     $('.countdown').countdown('2018/12/18', function(event) {
-        $(this).html(event.strftime('还有 %D 天 %H:%M:%S 开业'));
+        // $(this).html(event.strftime('还有 %D 天 %H:%M:%S 开业'));
+        $(this).html(event.strftime('开业在即'));
     });
 
 
